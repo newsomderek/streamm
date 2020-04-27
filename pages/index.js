@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 export default function Home() {
+  
   return (
     <div className="container">
       <Head>
@@ -9,6 +10,9 @@ export default function Home() {
       </Head>
 
       <main>
+        <a href="/api/login">Login</a>
+        <a href="/api/logout">Logout</a>
+
         <h1 className="title">
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
